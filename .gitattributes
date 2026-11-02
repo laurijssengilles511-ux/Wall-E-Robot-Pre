@@ -1,0 +1,2 @@
+# Preserve downloadable source documents byte for byte on every operating system.
+public/portfolio/documents/** -text
