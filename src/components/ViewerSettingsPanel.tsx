@@ -1,0 +1,21 @@
+import { useEffect, useState } from 'react'
+import { JOINTS, type JointId, type Pose } from '../content/robot-motion'
+import { calibratedPose, calibrationErrors, DEFAULT_APPEARANCE, defaultCalibration, type Appearance, type Calibration } from '../content/robot-settings'
+
+interface Props { calibration: Calibration; appearance: Appearance; pose: Pose; notice: string; onApply: (profile: Calibration) => void; onSave: (profile: Calibration) => void; onAppearance: (appearance: Appearance) => void; onHighlight: (joint: JointId | null) => void }
+export default function ViewerSettingsPanel(props: Props) {
+  const [draft, setDraft] = useState(props.calibration)
+  useEffect(() => setDraft(props.calibration), [props.calibration])
+  const errors = calibrationErrors(draft), mapped = calibratedPose(props.pose, props.calibration)
+  const number = (value: number) => Number.isFinite(value) ? value : ''
+  return <section className="viewer-settings-panel">
+    <div className="action-section-heading"><span className="small-heading">当前虚拟模型</span><h2>校准与外观</h2><p>编辑虚拟零点偏移、方向与限位；应用后所有滑块、动作和编排都使用当前配置。</p></div>
+    <p className="settings-note">反向会在所设范围内镜像角度，零点偏移在映射后叠加。限位只能缩小现有演示范围，并须包含 0°；零点偏移为 −10°～10°。</p>
+    <div className="calibration-table"><table><thead><tr><th>关节</th><th>偏移 °</th><th>反向</th><th>最小 °</th><th>最大 °</th><th>指令 / 显示</th></tr></thead><tbody>{JOINTS.map(joint => <tr key={joint.id} onFocus={() => props.onHighlight(joint.id)}><th scope="row">{joint.label}</th><td><input aria-label={`${joint.label}零点偏移`} type="number" min="-10" max="10" step="1" value={number(draft[joint.id].zero)} onChange={event => setDraft({ ...draft, [joint.id]: { ...draft[joint.id], zero: event.target.value === '' ? NaN : Number(event.target.value) } })} /></td><td><input aria-label={`${joint.label}反向`} type="checkbox" checked={draft[joint.id].reversed} onChange={event => setDraft({ ...draft, [joint.id]: { ...draft[joint.id], reversed: event.target.checked } })} /></td><td><input aria-label={`${joint.label}最小角度`} type="number" min={joint.min} max="0" step="1" value={number(draft[joint.id].min)} onChange={event => setDraft({ ...draft, [joint.id]: { ...draft[joint.id], min: event.target.value === '' ? NaN : Number(event.target.value) } })} /></td><td><input aria-label={`${joint.label}最大角度`} type="number" min="0" max={joint.max} step="1" value={number(draft[joint.id].max)} onChange={event => setDraft({ ...draft, [joint.id]: { ...draft[joint.id], max: event.target.value === '' ? NaN : Number(event.target.value) } })} /></td><td>{Math.round(props.pose[joint.id])}° / {Math.round(mapped[joint.id])}°</td></tr>)}</tbody></table></div>
+    {errors.length > 0 && <p className="settings-error" role="alert">请检查以下关节的范围或偏移：{errors.join('、')}。</p>}
+    <div className="timeline-toolbar"><button disabled={errors.length > 0} onClick={() => props.onApply(draft)}>应用校准</button><button onClick={() => { const defaults = defaultCalibration(); setDraft(defaults); props.onApply(defaults) }}>恢复默认校准</button></div>
+    <section className="appearance-panel"><h3>外观与场景</h3><div className="appearance-colors">{([{ key: 'body', label: '机身颜色' }, { key: 'tracks', label: '履带颜色' }, { key: 'lens', label: '镜片颜色' }] as const).map(item => <label key={item.key}>{item.label}<input aria-label={item.label} type="color" value={props.appearance[item.key]} onChange={event => props.onAppearance({ ...props.appearance, [item.key]: event.target.value })} /><span>{props.appearance[item.key]}</span></label>)}</div><label className="appearance-grid"><input type="checkbox" checked={props.appearance.grid} onChange={event => props.onAppearance({ ...props.appearance, grid: event.target.checked })} />显示场地网格（驾驶模式始终显示）</label><button className="appearance-reset" onClick={() => props.onAppearance({ ...DEFAULT_APPEARANCE })}>恢复默认外观</button></section>
+    <div className="timeline-toolbar"><button className="timeline-primary" disabled={errors.length > 0} onClick={() => props.onSave(draft)}>保存校准与外观配置</button><button onClick={() => props.onHighlight(null)}>清除部件高亮</button></div>
+    <p className="settings-save-notice" role="status">{props.notice}</p><p className="timeline-note">配置保存在当前浏览器，仅用于虚拟展示；实体舵机仍需实机校准。本功能不保存动作草稿。</p>
+  </section>
+}

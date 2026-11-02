@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "note": "虚拟演示范围，未经舵机校准和机构验证",
+  "joints": [
+    { "id": "headYaw", "label": "头部左右", "min": -30, "max": 30, "hint": "左转 / 正视 / 右转", "targets": [{ "node": "joint_headYaw", "axis": "y", "factor": 1 }] },
+    { "id": "neckPitch", "label": "颈部俯仰", "min": -12, "max": 12, "hint": "低头 / 平视 / 抬头", "targets": [{ "node": "joint_neckPitch", "axis": "x", "factor": -1 }] },
+    { "id": "leftArm", "label": "左臂抬落", "min": -65, "max": 35, "hint": "放下 / 初始姿态 / 抬起", "targets": [{ "node": "joint_leftArm", "axis": "x", "factor": -1 }] },
+    { "id": "rightArm", "label": "右臂抬落", "min": -65, "max": 35, "hint": "放下 / 初始姿态 / 抬起", "targets": [{ "node": "joint_rightArm", "axis": "x", "factor": -1 }] },
+    { "id": "leftClaw", "label": "左夹爪开合", "min": 0, "max": 18, "hint": "初始闭合 → 张开", "targets": [{ "node": "joint_leftClaw_outerL", "axis": "z", "factor": 1 }, { "node": "joint_leftClaw_outerR", "axis": "z", "factor": -1 }] },
+    { "id": "rightClaw", "label": "右夹爪开合", "min": 0, "max": 18, "hint": "初始闭合 → 张开", "targets": [{ "node": "joint_rightClaw_outerL", "axis": "z", "factor": 1 }, { "node": "joint_rightClaw_outerR", "axis": "z", "factor": -1 }] },
+    { "id": "door", "label": "前舱门", "min": 0, "max": 65, "hint": "关闭 → 展开", "targets": [{ "node": "joint_door", "axis": "x", "factor": 1 }] },
+    { "id": "bodyYaw", "label": "整机转向", "min": -75, "max": 75, "hint": "向左 / 朝前 / 向右", "targets": [{ "node": "joint_bodyYaw", "axis": "y", "factor": 1 }] }
+  ],
+  "nodes": [
+    { "name": "joint_bodyYaw", "parent": null, "pivotMm": [0, 0, 0], "collection": "all" },
+    { "name": "joint_neckPitch", "parent": "joint_bodyYaw", "pivotMm": [0, 0, 254], "collection": "neck", "excludeSourceIds": ["body-neck-servo-holder", "neck-round-bottom", "neck-bottom-axle"] },
+    { "name": "joint_headYaw", "parent": "joint_neckPitch", "pivotMm": [0, -24, 344], "collection": "head" },
+    { "name": "joint_leftArm", "parent": "joint_bodyYaw", "pivotMm": [-85, 0, 206], "collection": "armLeft", "excludeSourceIds": ["arm-servo-bracket-left"], "excludeNames": ["Shoulder cap"] },
+    { "name": "joint_rightArm", "parent": "joint_bodyYaw", "pivotMm": [85, 0, 206], "collection": "armRight", "excludeSourceIds": ["arm-servo-bracket-right"], "excludeNames": ["Shoulder cap.001"] },
+    { "name": "joint_leftClaw_outerL", "parent": "joint_leftArm", "pivotMm": [-116, -62, 267], "collection": "armLeft", "sourceIds": ["hand-finger-left"] },
+    { "name": "joint_leftClaw_outerR", "parent": "joint_leftArm", "pivotMm": [-82, -62, 267], "collection": "armLeft", "sourceIds": ["hand-finger-right"] },
+    { "name": "joint_rightClaw_outerL", "parent": "joint_rightArm", "pivotMm": [82, -62, 267], "collection": "armRight", "sourceIds": ["hand-finger-left"] },
+    { "name": "joint_rightClaw_outerR", "parent": "joint_rightArm", "pivotMm": [116, -62, 267], "collection": "armRight", "sourceIds": ["hand-finger-right"] },
+    { "name": "joint_door", "parent": "joint_bodyYaw", "pivotMm": [0, -70, 103], "collection": "body", "sourceIds": ["body-front-door"], "includeNames": ["Nameplate background", "Graphic • WALL", "Red E badge", "Graphic • E"] }
+  ]
+}

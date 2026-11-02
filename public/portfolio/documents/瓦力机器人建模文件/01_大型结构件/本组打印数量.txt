@@ -1,0 +1,14 @@
+﻿body-back.STL：1件
+body-bottom.STL：1件
+body-front-door.STL：1件
+body-front.STL：1件
+body-left.STL：1件
+body-right.STL：1件
+body-top.STL：1件
+head-center.STL：1件
+wheel-bracket-outer-left.STL：1件
+wheel-bracket-outer-right.STL：1件
+wheel-frame-left.STL：1件
+wheel-frame-right.STL：1件
+合计12种，12件
+每个文件按标注数量复制，不与xN重复相乘。

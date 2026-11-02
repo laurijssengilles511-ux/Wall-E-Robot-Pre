@@ -1,0 +1,482 @@
+[
+  {
+    "id": "body-back",
+    "title": "机身后板",
+    "category": "body",
+    "filename": "body-back.STL",
+    "quantity": 1,
+    "printGroup": "01_大型结构件"
+  },
+  {
+    "id": "body-bottom",
+    "title": "机身底板",
+    "category": "body",
+    "filename": "body-bottom.STL",
+    "quantity": 1,
+    "printGroup": "01_大型结构件"
+  },
+  {
+    "id": "body-front-door",
+    "title": "机身前舱门",
+    "category": "body",
+    "filename": "body-front-door.STL",
+    "quantity": 1,
+    "printGroup": "01_大型结构件"
+  },
+  {
+    "id": "body-front",
+    "title": "机身前板",
+    "category": "body",
+    "filename": "body-front.STL",
+    "quantity": 1,
+    "printGroup": "01_大型结构件"
+  },
+  {
+    "id": "body-left",
+    "title": "机身左侧板",
+    "category": "body",
+    "filename": "body-left.STL",
+    "quantity": 1,
+    "printGroup": "01_大型结构件"
+  },
+  {
+    "id": "body-right",
+    "title": "机身右侧板",
+    "category": "body",
+    "filename": "body-right.STL",
+    "quantity": 1,
+    "printGroup": "01_大型结构件"
+  },
+  {
+    "id": "body-top",
+    "title": "机身顶板",
+    "category": "body",
+    "filename": "body-top.STL",
+    "quantity": 1,
+    "printGroup": "01_大型结构件"
+  },
+  {
+    "id": "head-center",
+    "title": "头部中央支架",
+    "category": "head",
+    "filename": "head-center.STL",
+    "quantity": 1,
+    "printGroup": "01_大型结构件"
+  },
+  {
+    "id": "wheel-bracket-outer-left",
+    "title": "左外轮支架",
+    "category": "wheels",
+    "filename": "wheel-bracket-outer-left.STL",
+    "quantity": 1,
+    "printGroup": "01_大型结构件"
+  },
+  {
+    "id": "wheel-bracket-outer-right",
+    "title": "右外轮支架",
+    "category": "wheels",
+    "filename": "wheel-bracket-outer-right.STL",
+    "quantity": 1,
+    "printGroup": "01_大型结构件"
+  },
+  {
+    "id": "wheel-frame-left",
+    "title": "左轮架",
+    "category": "wheels",
+    "filename": "wheel-frame-left.STL",
+    "quantity": 1,
+    "printGroup": "01_大型结构件"
+  },
+  {
+    "id": "wheel-frame-right",
+    "title": "右轮架",
+    "category": "wheels",
+    "filename": "wheel-frame-right.STL",
+    "quantity": 1,
+    "printGroup": "01_大型结构件"
+  },
+  {
+    "id": "arm-barrel",
+    "title": "手臂套筒",
+    "category": "arms",
+    "filename": "arm-barrel-x2.STL",
+    "quantity": 2,
+    "printGroup": "02_中型结构件"
+  },
+  {
+    "id": "arm-piston",
+    "title": "手臂活塞杆",
+    "category": "arms",
+    "filename": "arm-piston-x2.STL",
+    "quantity": 2,
+    "printGroup": "02_中型结构件"
+  },
+  {
+    "id": "arm-servo-bracket-left",
+    "title": "左肩舵机支架",
+    "category": "arms",
+    "filename": "arm-servo-bracket-left.STL",
+    "quantity": 1,
+    "printGroup": "02_中型结构件"
+  },
+  {
+    "id": "arm-servo-bracket-right",
+    "title": "右肩舵机支架",
+    "category": "arms",
+    "filename": "arm-servo-bracket-right.STL",
+    "quantity": 1,
+    "printGroup": "02_中型结构件"
+  },
+  {
+    "id": "body-neck-servo-holder",
+    "title": "颈部舵机支架",
+    "category": "body",
+    "filename": "body-neck-servo-holder.STL",
+    "quantity": 1,
+    "printGroup": "02_中型结构件"
+  },
+  {
+    "id": "eye-back-left",
+    "title": "左眼后壳",
+    "category": "head",
+    "filename": "eye-back-left.STL",
+    "quantity": 1,
+    "printGroup": "02_中型结构件"
+  },
+  {
+    "id": "eye-back-right",
+    "title": "右眼后壳",
+    "category": "head",
+    "filename": "eye-back-right.STL",
+    "quantity": 1,
+    "printGroup": "02_中型结构件"
+  },
+  {
+    "id": "eye-camera-replica",
+    "title": "眼部仿摄像头",
+    "category": "head",
+    "filename": "eye-camera-replica.STL",
+    "quantity": 2,
+    "printGroup": "02_中型结构件"
+  },
+  {
+    "id": "eye-front-left",
+    "title": "左眼前壳",
+    "category": "head",
+    "filename": "eye-front-left.STL",
+    "quantity": 1,
+    "printGroup": "02_中型结构件"
+  },
+  {
+    "id": "eye-front-right",
+    "title": "右眼前壳",
+    "category": "head",
+    "filename": "eye-front-right.STL",
+    "quantity": 1,
+    "printGroup": "02_中型结构件"
+  },
+  {
+    "id": "eye-middle-left",
+    "title": "左眼中壳",
+    "category": "head",
+    "filename": "eye-middle-left.STL",
+    "quantity": 1,
+    "printGroup": "02_中型结构件"
+  },
+  {
+    "id": "eye-middle-right",
+    "title": "右眼中壳",
+    "category": "head",
+    "filename": "eye-middle-right.STL",
+    "quantity": 1,
+    "printGroup": "02_中型结构件"
+  },
+  {
+    "id": "hand-finger-left",
+    "title": "左侧手指",
+    "category": "arms",
+    "filename": "hand-finger-left-x2.STL",
+    "quantity": 2,
+    "printGroup": "02_中型结构件"
+  },
+  {
+    "id": "hand-finger-middle",
+    "title": "中间手指",
+    "category": "arms",
+    "filename": "hand-finger-middle-x2.STL",
+    "quantity": 2,
+    "printGroup": "02_中型结构件"
+  },
+  {
+    "id": "hand-finger-right",
+    "title": "右侧手指",
+    "category": "arms",
+    "filename": "hand-finger-right-x2.STL",
+    "quantity": 2,
+    "printGroup": "02_中型结构件"
+  },
+  {
+    "id": "neck-bottom-left",
+    "title": "颈部下段左支架",
+    "category": "neck",
+    "filename": "neck-bottom-left.STL",
+    "quantity": 1,
+    "printGroup": "02_中型结构件"
+  },
+  {
+    "id": "neck-bottom-right",
+    "title": "颈部下段右支架",
+    "category": "neck",
+    "filename": "neck-bottom-right.STL",
+    "quantity": 1,
+    "printGroup": "02_中型结构件"
+  },
+  {
+    "id": "neck-round-top-left",
+    "title": "颈部上圆座（左）",
+    "category": "neck",
+    "filename": "neck-round-top-left.STL",
+    "quantity": 1,
+    "printGroup": "02_中型结构件"
+  },
+  {
+    "id": "neck-round-top-right",
+    "title": "颈部上圆座（右）",
+    "category": "neck",
+    "filename": "neck-round-top-right.STL",
+    "quantity": 1,
+    "printGroup": "02_中型结构件"
+  },
+  {
+    "id": "neck-top",
+    "title": "颈部上段支架",
+    "category": "neck",
+    "filename": "neck-top.STL",
+    "quantity": 1,
+    "printGroup": "02_中型结构件"
+  },
+  {
+    "id": "wheel-back",
+    "title": "后轮",
+    "category": "wheels",
+    "filename": "wheel-back-x4.STL",
+    "quantity": 4,
+    "printGroup": "02_中型结构件"
+  },
+  {
+    "id": "wheel-bracket-inner-left",
+    "title": "左内轮支架",
+    "category": "wheels",
+    "filename": "wheel-bracket-inner-left.STL",
+    "quantity": 1,
+    "printGroup": "02_中型结构件"
+  },
+  {
+    "id": "wheel-bracket-inner-right",
+    "title": "右内轮支架",
+    "category": "wheels",
+    "filename": "wheel-bracket-inner-right.STL",
+    "quantity": 1,
+    "printGroup": "02_中型结构件"
+  },
+  {
+    "id": "wheel-frame-addon",
+    "title": "轮架附加件",
+    "category": "wheels",
+    "filename": "wheel-frame-addon-x2.STL",
+    "quantity": 2,
+    "printGroup": "02_中型结构件"
+  },
+  {
+    "id": "wheel-front",
+    "title": "前轮",
+    "category": "wheels",
+    "filename": "wheel-front-x4.STL",
+    "quantity": 4,
+    "printGroup": "02_中型结构件"
+  },
+  {
+    "id": "arm-barrel-end",
+    "title": "套筒端盖",
+    "category": "arms",
+    "filename": "arm-barrel-end-x2.STL",
+    "quantity": 2,
+    "printGroup": "03_小型精细件"
+  },
+  {
+    "id": "arm-hinge-axle",
+    "title": "手臂铰链轴",
+    "category": "arms",
+    "filename": "arm-hinge-axle-x2.STL",
+    "quantity": 2,
+    "printGroup": "03_小型精细件"
+  },
+  {
+    "id": "arm-hinge-inner",
+    "title": "手臂内铰链",
+    "category": "arms",
+    "filename": "arm-hinge-inner-x2.STL",
+    "quantity": 2,
+    "printGroup": "03_小型精细件"
+  },
+  {
+    "id": "arm-hinge-outer",
+    "title": "手臂外铰链",
+    "category": "arms",
+    "filename": "arm-hinge-outer-x2.STL",
+    "quantity": 2,
+    "printGroup": "03_小型精细件"
+  },
+  {
+    "id": "body-front-pins",
+    "title": "前舱门销钉",
+    "category": "body",
+    "filename": "body-front-pins-x2.STL",
+    "quantity": 2,
+    "printGroup": "03_小型精细件"
+  },
+  {
+    "id": "hand-axle",
+    "title": "手掌转轴",
+    "category": "arms",
+    "filename": "hand-axle-x2.STL",
+    "quantity": 2,
+    "printGroup": "03_小型精细件"
+  },
+  {
+    "id": "hand-bracket",
+    "title": "手掌支架",
+    "category": "arms",
+    "filename": "hand-bracket-x2.STL",
+    "quantity": 2,
+    "printGroup": "03_小型精细件"
+  },
+  {
+    "id": "head-axle",
+    "title": "头部转轴",
+    "category": "head",
+    "filename": "head-axle.STL",
+    "quantity": 1,
+    "printGroup": "03_小型精细件"
+  },
+  {
+    "id": "neck-bottom-axle",
+    "title": "颈部底端转轴",
+    "category": "neck",
+    "filename": "neck-bottom-axle.STL",
+    "quantity": 1,
+    "printGroup": "03_小型精细件"
+  },
+  {
+    "id": "neck-bottom-linkage",
+    "title": "颈部下连杆",
+    "category": "neck",
+    "filename": "neck-bottom-linkage.STL",
+    "quantity": 1,
+    "printGroup": "03_小型精细件"
+  },
+  {
+    "id": "neck-middle-axle",
+    "title": "颈部中间转轴",
+    "category": "neck",
+    "filename": "neck-middle-axle.STL",
+    "quantity": 1,
+    "printGroup": "03_小型精细件"
+  },
+  {
+    "id": "neck-round-bottom",
+    "title": "颈部下圆座",
+    "category": "neck",
+    "filename": "neck-round-bottom.STL",
+    "quantity": 1,
+    "printGroup": "03_小型精细件"
+  },
+  {
+    "id": "neck-top-linkage",
+    "title": "颈部上连杆",
+    "category": "neck",
+    "filename": "neck-top-linkage.STL",
+    "quantity": 1,
+    "printGroup": "03_小型精细件"
+  },
+  {
+    "id": "neck-wire-guide-left",
+    "title": "颈部左导线夹",
+    "category": "neck",
+    "filename": "neck-wire-guide-left.STL",
+    "quantity": 1,
+    "printGroup": "03_小型精细件"
+  },
+  {
+    "id": "neck-wire-guide-right",
+    "title": "颈部右导线夹",
+    "category": "neck",
+    "filename": "neck-wire-guide-right.STL",
+    "quantity": 1,
+    "printGroup": "03_小型精细件"
+  },
+  {
+    "id": "tread-pin",
+    "title": "履带销钉",
+    "category": "treads",
+    "filename": "tread-pin-x140.STL",
+    "quantity": 140,
+    "printGroup": "03_小型精细件"
+  },
+  {
+    "id": "tread-plate",
+    "title": "履带板",
+    "category": "treads",
+    "filename": "tread-plate-x70.STL",
+    "quantity": 70,
+    "printGroup": "03_小型精细件"
+  },
+  {
+    "id": "wheel-axle-back",
+    "title": "后轮轴",
+    "category": "wheels",
+    "filename": "wheel-axle-back-x2.STL",
+    "quantity": 2,
+    "printGroup": "03_小型精细件"
+  },
+  {
+    "id": "wheel-axle-notched",
+    "title": "带槽轮轴",
+    "category": "wheels",
+    "filename": "wheel-axle-notched-x6.STL",
+    "quantity": 6,
+    "printGroup": "03_小型精细件"
+  },
+  {
+    "id": "wheel-axle-spacer",
+    "title": "轮轴隔套",
+    "category": "wheels",
+    "filename": "wheel-axle-spacer-x8.STL",
+    "quantity": 8,
+    "printGroup": "03_小型精细件"
+  },
+  {
+    "id": "wheel-gear-driven",
+    "title": "从动齿轮",
+    "category": "wheels",
+    "filename": "wheel-gear-driven-x2.STL",
+    "quantity": 2,
+    "printGroup": "03_小型精细件"
+  },
+  {
+    "id": "wheel-gear-motor",
+    "title": "电机驱动齿轮",
+    "category": "wheels",
+    "filename": "wheel-gear-motor-x2.STL",
+    "quantity": 2,
+    "printGroup": "03_小型精细件"
+  },
+  {
+    "id": "wheel-top",
+    "title": "上支撑轮",
+    "category": "wheels",
+    "filename": "wheel-top-x8.STL",
+    "quantity": 8,
+    "printGroup": "03_小型精细件"
+  }
+]

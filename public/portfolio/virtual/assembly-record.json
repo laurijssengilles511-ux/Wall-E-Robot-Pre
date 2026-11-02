@@ -1,0 +1,388 @@
+{
+  "title": "瓦力整机虚拟装配",
+  "status": "展示用重建，未经实体装配与机构运动验证",
+  "sourceUnitsAssumed": "millimetres",
+  "exportUnits": "metres",
+  "reference": "用户提供的实物照片为造型主参考；两张概念图辅助配色",
+  "sources": [
+    {
+      "id": "body-left",
+      "source": "01_大型结构件\\body\\打印001件__body-left（正在打印）.STL",
+      "sha256": "50e7bc4913d18bc99d956f9de10ca14266650b03edc8613e0020eef5bcbe6534",
+      "instances": 1
+    },
+    {
+      "id": "body-right",
+      "source": "01_大型结构件\\body\\打印001件__body-right（正在打印）.STL",
+      "sha256": "42ffe464abd54aafe2e2e63d9a5816705be33b328f5391d389155b22d1a50efd",
+      "instances": 1
+    },
+    {
+      "id": "body-top",
+      "source": "01_大型结构件\\body\\打印001件__body-top（正在打印）.STL",
+      "sha256": "d1d0cc2e9847204fb8ae8cea4de4b195b1a9711567afe29c1b1f233dc183789e",
+      "instances": 1
+    },
+    {
+      "id": "body-front-door",
+      "source": "01_大型结构件\\body\\打印001件__body-front-door（正在打印）.STL",
+      "sha256": "e881eb44865b260bf6fa983c7629b9be1684c745763efd25ad0ae2c4c1825a42",
+      "instances": 1
+    },
+    {
+      "id": "body-front-pins",
+      "source": "03_小型精细件\\打印002件__body-front-pins-x2.STL",
+      "sha256": "70cec0aa0f6439ccd0bcf883f9051b41b42e04d202369ed017a23427a0d7f26f",
+      "instances": 2
+    },
+    {
+      "id": "wheel-front",
+      "source": "02_中型结构件\\打印004件__wheel-front-x4.STL",
+      "sha256": "1d183add42e9717079f7c50b14389b89effac4a6f8de67c30a6552c05f32eb58",
+      "instances": 4
+    },
+    {
+      "id": "wheel-back",
+      "source": "02_中型结构件\\打印004件__wheel-back-x4.STL",
+      "sha256": "f4c8a83da742026561596318f32ad33cd7c67aa008a2d1fa02ac9aa4bd44ade3",
+      "instances": 4
+    },
+    {
+      "id": "wheel-top",
+      "source": "03_小型精细件\\打印008件__wheel-top-x8.STL",
+      "sha256": "a20b1804ead2ffb11a3b18a2a65393dd3ce426c362cd27275c5e1c83c0588932",
+      "instances": 8
+    },
+    {
+      "id": "wheel-bracket-inner-left",
+      "source": "02_中型结构件\\打印001件__wheel-bracket-inner-left.STL",
+      "sha256": "bd8f5ccf64b0addd75d87e054a5940f81511aec9eee97c3b73814fc7e9f4d567",
+      "instances": 1
+    },
+    {
+      "id": "wheel-frame-addon",
+      "source": "02_中型结构件\\打印002件__wheel-frame-addon-x2.STL",
+      "sha256": "47a564130bdee785f1bac27899d67de29fbfcba96599570a5552a908c4034c94",
+      "instances": 2
+    },
+    {
+      "id": "wheel-axle-back",
+      "source": "03_小型精细件\\打印002件__wheel-axle-back-x2.STL",
+      "sha256": "983da3069e65a40a8f46e056d22eea2a74e36167fdd7dcbcb19c34294b8c7517",
+      "instances": 2
+    },
+    {
+      "id": "wheel-axle-notched",
+      "source": "03_小型精细件\\打印006件__wheel-axle-notched-x6.STL",
+      "sha256": "ba292f511f185b589af06009a81cf93b2114c4b8be114f90489a425f1b32e049",
+      "instances": 6
+    },
+    {
+      "id": "wheel-axle-spacer",
+      "source": "03_小型精细件\\打印008件__wheel-axle-spacer-x8.STL",
+      "sha256": "f627df87f0c1a5cdd001cd782837f43411b09a92d7806fbef5fd45d58e59af15",
+      "instances": 8
+    },
+    {
+      "id": "wheel-gear-driven",
+      "source": "03_小型精细件\\打印002件__wheel-gear-driven-x2.STL",
+      "sha256": "8ff1df844b901c9bcd97edc93108cc2c9f777c3a04f288ee06f645d63eb1a27c",
+      "instances": 2
+    },
+    {
+      "id": "wheel-gear-motor",
+      "source": "03_小型精细件\\打印002件__wheel-gear-motor-x2.STL",
+      "sha256": "55eb14c6ead96ed251bc118606bf3fb4ce04c635f256decfd782ca2c9bb0fe01",
+      "instances": 2
+    },
+    {
+      "id": "tread-plate",
+      "source": "03_小型精细件\\打印070件__tread-plate-x70.STL",
+      "sha256": "cd40c6f21e537678f0f91d1b4e0466c4275368d4680f39fa16ec28acf91c6911",
+      "instances": 70
+    },
+    {
+      "id": "tread-pin",
+      "source": "03_小型精细件\\打印140件__tread-pin-x140.STL",
+      "sha256": "3ce72a67f7d486fdda6faa991188fed2dc98ce25986a7a3c96f719833da29ace",
+      "instances": 140
+    },
+    {
+      "id": "wheel-bracket-inner-right",
+      "source": "02_中型结构件\\打印001件__wheel-bracket-inner-right.STL",
+      "sha256": "7ad554731b89d174193732b28a635198d2e68c7c607b758309e421564bb47b6f",
+      "instances": 1
+    },
+    {
+      "id": "body-neck-servo-holder",
+      "source": "02_中型结构件\\打印001件__body-neck-servo-holder.STL",
+      "sha256": "8badf289e2872903d318e1787aef8a55a6e081fca0f5e2764a14da32e7211371",
+      "instances": 1
+    },
+    {
+      "id": "neck-round-bottom",
+      "source": "03_小型精细件\\打印001件__neck-round-bottom.STL",
+      "sha256": "8d24d66cf90cfcc9978905c230eebe1139840e34a4eab4c0aaf67aec38d05306",
+      "instances": 1
+    },
+    {
+      "id": "neck-bottom-axle",
+      "source": "03_小型精细件\\打印001件__neck-bottom-axle.STL",
+      "sha256": "f65062180f7d0e989a1dd16cd18846db69b8761074c5665feb86a22d2705b6e4",
+      "instances": 1
+    },
+    {
+      "id": "neck-bottom-left",
+      "source": "02_中型结构件\\打印001件__neck-bottom-left.STL",
+      "sha256": "c728cff88ed7c62fbe442879bda3fe4ba9a5d4dae915573f684cf854088a7295",
+      "instances": 1
+    },
+    {
+      "id": "neck-bottom-right",
+      "source": "02_中型结构件\\打印001件__neck-bottom-right.STL",
+      "sha256": "d4040de21bcc50ce400c81fa1f9d7c9b07e71f933886ffa9119aea104588f39c",
+      "instances": 1
+    },
+    {
+      "id": "neck-bottom-linkage",
+      "source": "03_小型精细件\\打印001件__neck-bottom-linkage.STL",
+      "sha256": "da8ba8f175496001f21105b11ada8b7eea6a338139cedd1a4e3fb9a386b077d6",
+      "instances": 1
+    },
+    {
+      "id": "neck-middle-axle",
+      "source": "03_小型精细件\\打印001件__neck-middle-axle.STL",
+      "sha256": "1a59f3101f9257c3e35f072fec3c37beb3514ff52fbf29dbe1e11adf5bd3c410",
+      "instances": 1
+    },
+    {
+      "id": "neck-top",
+      "source": "02_中型结构件\\打印001件__neck-top.STL",
+      "sha256": "5dfbdb4275cb0e8c16f231bee79e0e5700e82dc578c2c2902ae9c3808cfcfcc9",
+      "instances": 1
+    },
+    {
+      "id": "neck-top-linkage",
+      "source": "03_小型精细件\\打印001件__neck-top-linkage.STL",
+      "sha256": "213cea1cb0119d7928d64b5bda8950d7861b751479893bffc6b97ec8f0a45332",
+      "instances": 1
+    },
+    {
+      "id": "neck-round-top-left",
+      "source": "02_中型结构件\\打印001件__neck-round-top-left.STL",
+      "sha256": "3a5fe966791dd4adbb1e2deccbf0626936e792c0e99694b8ef5c7a17ad084cca",
+      "instances": 1
+    },
+    {
+      "id": "neck-wire-guide-left",
+      "source": "03_小型精细件\\打印001件__neck-wire-guide-left.STL",
+      "sha256": "26e8bbb5d3065fb94fe17e0231386f88b10070fb62116500b65f17864ce5115f",
+      "instances": 1
+    },
+    {
+      "id": "neck-round-top-right",
+      "source": "02_中型结构件\\打印001件__neck-round-top-right.STL",
+      "sha256": "3086a92f524b9a172f11a6617d09efc191407ff920cc22a6a8c046d3b9c0f987",
+      "instances": 1
+    },
+    {
+      "id": "neck-wire-guide-right",
+      "source": "03_小型精细件\\打印001件__neck-wire-guide-right.STL",
+      "sha256": "ff60c81e13ccc3dcc7e8c6188844cba1159ff7b09739dcb72ca7e42707ae6b06",
+      "instances": 1
+    },
+    {
+      "id": "head-axle",
+      "source": "03_小型精细件\\打印001件__head-axle.STL",
+      "sha256": "c2a5c627126c299789407d735171d08cb4f28d917c8dfb65985d9d04534bc0cf",
+      "instances": 1
+    },
+    {
+      "id": "eye-front-left",
+      "source": "02_中型结构件\\打印001件__eye-front-left.STL",
+      "sha256": "2b631c5394d95b28403ca2a585987db90addc981a060936b6d5417726f2a46c2",
+      "instances": 1
+    },
+    {
+      "id": "eye-middle-left",
+      "source": "02_中型结构件\\打印001件__eye-middle-left.STL",
+      "sha256": "bdf6805d1a20956be513e0500266a9d54da54b5ac446840e52febdeb7cfbedb7",
+      "instances": 1
+    },
+    {
+      "id": "eye-back-left",
+      "source": "02_中型结构件\\打印001件__eye-back-left.STL",
+      "sha256": "0c6787c0a6cab3d026f19ddae562f9120eff06aecdf96ba89be69d9047a76a4d",
+      "instances": 1
+    },
+    {
+      "id": "eye-camera-replica",
+      "source": "02_中型结构件\\打印002件__eye-camera-replica.STL",
+      "sha256": "4fa4c93ece4c73677eb92e873f9e24f3471a8754e13fe90cadf1bc09941aaebf",
+      "instances": 2
+    },
+    {
+      "id": "eye-front-right",
+      "source": "02_中型结构件\\打印001件__eye-front-right.STL",
+      "sha256": "a1deeb966649afd9b0fbfc3acdaf0ab36d87a1e563274f4023a31f4e4fc335c5",
+      "instances": 1
+    },
+    {
+      "id": "eye-middle-right",
+      "source": "02_中型结构件\\打印001件__eye-middle-right.STL",
+      "sha256": "b3bb217447f0484b00e9f53978da970557ccebb51af96f1f331583a5a5fedaba",
+      "instances": 1
+    },
+    {
+      "id": "eye-back-right",
+      "source": "02_中型结构件\\打印001件__eye-back-right.STL",
+      "sha256": "50c22924117ddcb63c34cea1ca2c279b048fb1f565b7385d95fb64f9fb1e4676",
+      "instances": 1
+    },
+    {
+      "id": "arm-servo-bracket-left",
+      "source": "02_中型结构件\\打印001件__arm-servo-bracket-left.STL",
+      "sha256": "923d7db93e0f5505b1f4099e476c0f1b34c1b93424b5d0fe8a5b0e5bab3ea83b",
+      "instances": 1
+    },
+    {
+      "id": "arm-barrel",
+      "source": "02_中型结构件\\打印002件__arm-barrel-x2.STL",
+      "sha256": "625c1620f2a6bd71197a914ef3f1ad93513dcbc8b290ed2e5c2db4b3c70717d9",
+      "instances": 2
+    },
+    {
+      "id": "arm-piston",
+      "source": "02_中型结构件\\打印002件__arm-piston-x2.STL",
+      "sha256": "d060adbd6dc00940d46a0dd82e2ae9d8464b5f8c262155421b3aaf8775ee213f",
+      "instances": 2
+    },
+    {
+      "id": "arm-barrel-end",
+      "source": "03_小型精细件\\打印002件__arm-barrel-end-x2.STL",
+      "sha256": "69505ce36940fb4771c36702962822b72ce0d94ccd33e08a395ad530958d01a7",
+      "instances": 2
+    },
+    {
+      "id": "arm-hinge-inner",
+      "source": "03_小型精细件\\打印002件__arm-hinge-inner-x2.STL",
+      "sha256": "29b0b892850f6adc0785ce625664c24a59f55caf2bcf9cbaf7d4181d05c4fac2",
+      "instances": 2
+    },
+    {
+      "id": "arm-hinge-outer",
+      "source": "03_小型精细件\\打印002件__arm-hinge-outer-x2.STL",
+      "sha256": "1c3afa892e2c7608b741bac8b58be68417887f6a7b5e681194582425fded9899",
+      "instances": 2
+    },
+    {
+      "id": "arm-hinge-axle",
+      "source": "03_小型精细件\\打印002件__arm-hinge-axle-x2.STL",
+      "sha256": "1dbd75a4790ccf2d0f9b21aa29b137657269fb1305d38087c82548b3fc1d1c2c",
+      "instances": 2
+    },
+    {
+      "id": "hand-bracket",
+      "source": "03_小型精细件\\打印002件__hand-bracket-x2.STL",
+      "sha256": "a3288e77d402627094d6eb0470dfdd240d39f9d7ed924a4ed78fc3e53af3bf24",
+      "instances": 2
+    },
+    {
+      "id": "hand-axle",
+      "source": "03_小型精细件\\打印002件__hand-axle-x2.STL",
+      "sha256": "01593dc0efe6137022838f51649b88eb06a69e32c5506cd72e5ffc30cdefce13",
+      "instances": 2
+    },
+    {
+      "id": "hand-finger-left",
+      "source": "02_中型结构件\\打印002件__hand-finger-left-x2.STL",
+      "sha256": "27906cee11f050e3f739d9e676d3ea908fc6534b7d58c66ca07756e452784063",
+      "instances": 2
+    },
+    {
+      "id": "hand-finger-middle",
+      "source": "02_中型结构件\\打印002件__hand-finger-middle-x2.STL",
+      "sha256": "150a9f2ceda091de4e1abc79071958f1daae34330b040a1211871f7c27337ea8",
+      "instances": 2
+    },
+    {
+      "id": "hand-finger-right",
+      "source": "02_中型结构件\\打印002件__hand-finger-right-x2.STL",
+      "sha256": "1f260393a5b9b541b43abcf9a2b45ddc77e45f1b1cebfc6f1137e52f4a126d29",
+      "instances": 2
+    },
+    {
+      "id": "arm-servo-bracket-right",
+      "source": "02_中型结构件\\打印001件__arm-servo-bracket-right.STL",
+      "sha256": "1c2753c65606a089a20bea1ad4248c8435b6e4e484d9cca5d03de8c12a160074",
+      "instances": 1
+    }
+  ],
+  "missingParts": [
+    {
+      "id": "body-back",
+      "title": "机身后板",
+      "status": "展示用推定零件"
+    },
+    {
+      "id": "body-bottom",
+      "title": "机身底板",
+      "status": "展示用推定零件"
+    },
+    {
+      "id": "body-front",
+      "title": "机身前板",
+      "status": "展示用推定零件"
+    },
+    {
+      "id": "head-center",
+      "title": "头部中央支架",
+      "status": "展示用推定零件"
+    },
+    {
+      "id": "wheel-bracket-outer-left",
+      "title": "左外轮支架",
+      "status": "展示用推定零件"
+    },
+    {
+      "id": "wheel-bracket-outer-right",
+      "title": "右外轮支架",
+      "status": "展示用推定零件"
+    },
+    {
+      "id": "wheel-frame-left",
+      "title": "左轮架",
+      "status": "展示用推定零件"
+    },
+    {
+      "id": "wheel-frame-right",
+      "title": "右轮架",
+      "status": "展示用推定零件"
+    }
+  ],
+  "displayDetails": [
+    "镜片与固定环",
+    "面板仪表与通风槽",
+    "文字标识",
+    "轮毂与肩部端盖"
+  ],
+  "assemblyNote": "保留原始零件尺寸；位置、方向、眼部轴线和履带路径按参考外观推定。履带按清单使用70块履带板和140个销钉。内部电子器件未装配。",
+  "objects": 357,
+  "rigVersion": 1,
+  "jointNodes": [
+    "joint_bodyYaw",
+    "joint_neckPitch",
+    "joint_headYaw",
+    "joint_leftArm",
+    "joint_rightArm",
+    "joint_leftClaw_outerL",
+    "joint_leftClaw_outerR",
+    "joint_rightClaw_outerL",
+    "joint_rightClaw_outerR",
+    "joint_door"
+  ],
+  "motionNote": "虚拟演示范围，未经舵机校准和机构验证",
+  "driveRig": "drive-rig.json",
+  "triangles": 314414,
+  "textureNote": "Cycles烘焙磨损蒙版，生成四种基础色贴图；GLB内嵌贴图，无在线素材依赖。"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "walle-course-portfolio",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "start": "node scripts/serve.mjs",
+    "test": "node --experimental-strip-types --test tests/portfolio.test.mjs tests/virtual.test.mjs tests/motion.test.mjs tests/timeline.test.mjs tests/drive-settings.test.mjs",
+    "assets:prepare": "python scripts/prepare-portfolio.py",
+    "package": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/package-portfolio.ps1"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "^2.1.10",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@tailwindcss/vite": "^4.1.17",
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@types/three": "^0.187.0",
+    "@vitejs/plugin-react": "^5.1.0",
+    "tailwindcss": "^4.1.17",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.2"
+  }
+}

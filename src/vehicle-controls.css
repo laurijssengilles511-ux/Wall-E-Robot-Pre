@@ -1,0 +1,50 @@
+.viewer-toolbar { flex-wrap: wrap; gap: 9px; }
+.viewer-view-controls { display: flex; align-items: center; gap: 8px; }
+.viewer-view-controls select { max-width: 110px; font: inherit; font-size: 11px; color: #747c67; background: #fafaf7; border: 1px solid #d7d9cd; border-radius: 3px; padding: 6px; }
+.viewer-highlight-tag { position: absolute; top: 13px; left: 14px; padding: 7px 10px; font-size: 10px; color: #8d7138; background: #faf7e9ed; border: 1px solid #d9c78c; border-radius: 3px; }
+.left-control-tabs { display: flex; gap: 20px; border-bottom: 1px solid #e1e3d8; margin: -4px 0 16px; }
+.left-control-tabs button { padding: 3px 0 10px; font-size: 11px; color: #919881; border-bottom: 2px solid transparent; }
+.left-control-tabs button[aria-selected=true] { border-color: #b7963e; color: #9b7c39; }
+.drive-keyboard { display: inline-flex; align-items: center; gap: 5px; color: #7a8569; font-size: 11px; }
+.drive-keyboard input, .drive-speed input[type=checkbox], .appearance-grid input { accent-color: #ad7c28; }
+.drive-fields { display: grid; grid-template-columns: minmax(140px, 1fr) minmax(0, 1.1fr); gap: 16px 22px; border: 0; padding: 0; margin: 0; }
+.drive-pad { display: grid; grid-template-areas: '. forward .' 'left stop right' '. back .'; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; align-self: start; }
+.drive-pad button { display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 5px; min-height: 52px; font-size: 10px; border: 1px solid #dfdfd3; background: #f4f3eb; border-radius: 4px; color: #8b743c; touch-action: none; user-select: none; }
+.drive-pad button:active { background: #e9d9a7; transform: none; }
+.drive-pad .drive-brake { color: #8d6250; background: #f1e9dc; }
+.drive-speed { display: flex; flex-direction: column; justify-content: center; gap: 16px; font-size: 11px; color: #808970; }
+.drive-speed output, .drive-track-controls output { float: right; color: #a18543; font: 11px Consolas, monospace; }
+.drive-speed > label:not(:first-child) { display: flex; gap: 5px; align-items: center; }
+.drive-speed > button { display: inline-flex; justify-content: center; gap: 7px; align-items: center; border: 1px solid #e2e2d6; border-radius: 3px; padding: 8px; background: #f7f6ef; }
+.drive-track-controls { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; font-size: 11px; color: #808970; }
+.drive-telemetry { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 18px; padding-top: 17px; margin-top: 10px; border-top: 1px solid #e5e5db; font-size: 10px; color: #929982; }
+.drive-telemetry > span { display: flex; justify-content: space-between; gap: 5px; }
+.drive-telemetry strong { font: 10px Consolas, monospace; color: #8d865e; }
+.drive-boundary { font-size: 10px; margin-top: 15px; padding: 8px 10px; color: #a3854f; background: #f6efde; border-radius: 3px; }
+.settings-note { color: #929780; font-size: 10px; line-height: 1.9; margin-bottom: 16px; }
+.calibration-table { overflow-x: auto; scrollbar-width: thin; margin-bottom: 20px; }
+.calibration-table table { border-collapse: collapse; width: 100%; min-width: 520px; font-size: 11px; }
+.calibration-table th, .calibration-table td { text-align: left; padding: 10px 6px; border-bottom: 1px solid #e3e5d8; white-space: nowrap; font-weight: 400; }
+.calibration-table thead { color: #a1a48b; }
+.calibration-table td:last-child { color: #9e874c; font: 10px Consolas, monospace; }
+.calibration-table input[type=number] { width: 58px; padding: 6px; border: 1px solid #dbddcf; border-radius: 3px; background: #fff; font: 11px Consolas, monospace; color: #7c8668; }
+.calibration-table input[type=checkbox] { accent-color: #ad7c28; }
+.settings-error { color: #a36c49; background: #f4eadd; padding: 10px 13px; margin-bottom: 15px; border-radius: 3px; font-size: 11px; }
+.appearance-panel { margin: 28px 0; padding: 20px; background: #f3f3eb; border: 1px solid #dedfd5; border-radius: 4px; }
+.appearance-panel h3 { font-size: 14px; font-weight: 550; margin-bottom: 18px; }
+.appearance-colors { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.appearance-colors label { display: flex; flex-direction: column; gap: 9px; font-size: 11px; color: #818b6e; }
+.appearance-colors input { display: block; width: 100%; height: 35px; border: 1px solid #d3d8c6; padding: 3px; background: #fafaf7; border-radius: 3px; cursor: pointer; }
+.appearance-colors span { color: #a2a68f; font: 10px Consolas, monospace; }
+.appearance-grid { display: flex; gap: 7px; align-items: center; font-size: 11px; margin-top: 20px; color: #879173; }
+.appearance-reset { font-size: 11px; margin-top: 15px; padding: 8px 12px; background: #e9eade; border-radius: 3px; color: #80896c; }
+.settings-save-notice { font-size: 11px; color: #9a844c; min-height: 25px; margin-top: 12px; }
+@media (max-width: 767px) {
+  .viewer-view-controls { gap: 5px; }
+  .viewer-view-controls select { max-width: 88px; font-size: 10px; }
+  .robot-playground .viewer-toolbar button { padding: 6px 8px; font-size: 10px; }
+  .drive-fields { gap: 14px; }
+  .drive-pad button { min-height: 48px; }
+  .appearance-panel { padding: 15px; }
+  .appearance-colors { gap: 10px; }
+}

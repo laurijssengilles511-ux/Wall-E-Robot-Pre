@@ -1,0 +1,987 @@
+{
+  "models": [
+    {
+      "id": "body-front-door",
+      "title": "机身前舱门",
+      "category": "body",
+      "categoryTitle": "机身",
+      "filename": "打印001件__body-front-door（正在打印）.STL",
+      "path": "portfolio/models/01_大型结构件/body/打印001件__body-front-door（正在打印）.STL",
+      "preview": "portfolio/previews/body-front-door.png",
+      "plannedQuantity": 1,
+      "bytes": 55184,
+      "triangles": 1102,
+      "dimensions": [
+        120.5,
+        83.5,
+        18.93
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "body-left",
+      "title": "机身左侧板",
+      "category": "body",
+      "categoryTitle": "机身",
+      "filename": "打印001件__body-left（正在打印）.STL",
+      "path": "portfolio/models/01_大型结构件/body/打印001件__body-left（正在打印）.STL",
+      "preview": "portfolio/previews/body-left.png",
+      "plannedQuantity": 1,
+      "bytes": 88084,
+      "triangles": 1760,
+      "dimensions": [
+        17.0,
+        143.0,
+        162.7
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "body-right",
+      "title": "机身右侧板",
+      "category": "body",
+      "categoryTitle": "机身",
+      "filename": "打印001件__body-right（正在打印）.STL",
+      "path": "portfolio/models/01_大型结构件/body/打印001件__body-right（正在打印）.STL",
+      "preview": "portfolio/previews/body-right.png",
+      "plannedQuantity": 1,
+      "bytes": 88084,
+      "triangles": 1760,
+      "dimensions": [
+        17.0,
+        143.0,
+        162.7
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "body-top",
+      "title": "机身顶板",
+      "category": "body",
+      "categoryTitle": "机身",
+      "filename": "打印001件__body-top（正在打印）.STL",
+      "path": "portfolio/models/01_大型结构件/body/打印001件__body-top（正在打印）.STL",
+      "preview": "portfolio/previews/body-top.png",
+      "plannedQuantity": 1,
+      "bytes": 130984,
+      "triangles": 2618,
+      "dimensions": [
+        153.0,
+        37.0,
+        134.4
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "arm-servo-bracket-left",
+      "title": "左肩舵机支架",
+      "category": "arms",
+      "categoryTitle": "手臂",
+      "filename": "打印001件__arm-servo-bracket-left.STL",
+      "path": "portfolio/models/02_中型结构件/打印001件__arm-servo-bracket-left.STL",
+      "preview": "portfolio/previews/arm-servo-bracket-left.png",
+      "plannedQuantity": 1,
+      "bytes": 44284,
+      "triangles": 884,
+      "dimensions": [
+        53.2,
+        22.75,
+        16.5
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "arm-servo-bracket-right",
+      "title": "右肩舵机支架",
+      "category": "arms",
+      "categoryTitle": "手臂",
+      "filename": "打印001件__arm-servo-bracket-right.STL",
+      "path": "portfolio/models/02_中型结构件/打印001件__arm-servo-bracket-right.STL",
+      "preview": "portfolio/previews/arm-servo-bracket-right.png",
+      "plannedQuantity": 1,
+      "bytes": 44284,
+      "triangles": 884,
+      "dimensions": [
+        53.2,
+        22.75,
+        16.5
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "body-neck-servo-holder",
+      "title": "颈部舵机支架",
+      "category": "body",
+      "categoryTitle": "机身",
+      "filename": "打印001件__body-neck-servo-holder.STL",
+      "path": "portfolio/models/02_中型结构件/打印001件__body-neck-servo-holder.STL",
+      "preview": "portfolio/previews/body-neck-servo-holder.png",
+      "plannedQuantity": 1,
+      "bytes": 24084,
+      "triangles": 480,
+      "dimensions": [
+        39.7,
+        20.75,
+        7.5
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "eye-back-left",
+      "title": "左眼后壳",
+      "category": "head",
+      "categoryTitle": "头部",
+      "filename": "打印001件__eye-back-left.STL",
+      "path": "portfolio/models/02_中型结构件/打印001件__eye-back-left.STL",
+      "preview": "portfolio/previews/eye-back-left.png",
+      "plannedQuantity": 1,
+      "bytes": 56584,
+      "triangles": 1130,
+      "dimensions": [
+        70.03,
+        43.92,
+        38.5
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "eye-back-right",
+      "title": "右眼后壳",
+      "category": "head",
+      "categoryTitle": "头部",
+      "filename": "打印001件__eye-back-right.STL",
+      "path": "portfolio/models/02_中型结构件/打印001件__eye-back-right.STL",
+      "preview": "portfolio/previews/eye-back-right.png",
+      "plannedQuantity": 1,
+      "bytes": 57084,
+      "triangles": 1140,
+      "dimensions": [
+        70.94,
+        41.37,
+        38.5
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "eye-front-left",
+      "title": "左眼前壳",
+      "category": "head",
+      "categoryTitle": "头部",
+      "filename": "打印001件__eye-front-left.STL",
+      "path": "portfolio/models/02_中型结构件/打印001件__eye-front-left.STL",
+      "preview": "portfolio/previews/eye-front-left.png",
+      "plannedQuantity": 1,
+      "bytes": 203684,
+      "triangles": 4072,
+      "dimensions": [
+        83.17,
+        62.92,
+        44.0
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "eye-front-right",
+      "title": "右眼前壳",
+      "category": "head",
+      "categoryTitle": "头部",
+      "filename": "打印001件__eye-front-right.STL",
+      "path": "portfolio/models/02_中型结构件/打印001件__eye-front-right.STL",
+      "preview": "portfolio/previews/eye-front-right.png",
+      "plannedQuantity": 1,
+      "bytes": 203384,
+      "triangles": 4066,
+      "dimensions": [
+        85.31,
+        55.39,
+        44.0
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "eye-middle-left",
+      "title": "左眼中壳",
+      "category": "head",
+      "categoryTitle": "头部",
+      "filename": "打印001件__eye-middle-left.STL",
+      "path": "portfolio/models/02_中型结构件/打印001件__eye-middle-left.STL",
+      "preview": "portfolio/previews/eye-middle-left.png",
+      "plannedQuantity": 1,
+      "bytes": 81884,
+      "triangles": 1636,
+      "dimensions": [
+        56.22,
+        52.05,
+        82.0
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "eye-middle-right",
+      "title": "右眼中壳",
+      "category": "head",
+      "categoryTitle": "头部",
+      "filename": "打印001件__eye-middle-right.STL",
+      "path": "portfolio/models/02_中型结构件/打印001件__eye-middle-right.STL",
+      "preview": "portfolio/previews/eye-middle-right.png",
+      "plannedQuantity": 1,
+      "bytes": 81884,
+      "triangles": 1636,
+      "dimensions": [
+        63.21,
+        46.7,
+        82.0
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "neck-bottom-left",
+      "title": "颈部下段左支架",
+      "category": "neck",
+      "categoryTitle": "颈部",
+      "filename": "打印001件__neck-bottom-left.STL",
+      "path": "portfolio/models/02_中型结构件/打印001件__neck-bottom-left.STL",
+      "preview": "portfolio/previews/neck-bottom-left.png",
+      "plannedQuantity": 1,
+      "bytes": 340284,
+      "triangles": 6804,
+      "dimensions": [
+        94.0,
+        65.68,
+        17.5
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "neck-bottom-right",
+      "title": "颈部下段右支架",
+      "category": "neck",
+      "categoryTitle": "颈部",
+      "filename": "打印001件__neck-bottom-right.STL",
+      "path": "portfolio/models/02_中型结构件/打印001件__neck-bottom-right.STL",
+      "preview": "portfolio/previews/neck-bottom-right.png",
+      "plannedQuantity": 1,
+      "bytes": 308384,
+      "triangles": 6166,
+      "dimensions": [
+        94.0,
+        65.68,
+        17.5
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "neck-round-top-left",
+      "title": "颈部上圆座（左）",
+      "category": "neck",
+      "categoryTitle": "颈部",
+      "filename": "打印001件__neck-round-top-left.STL",
+      "path": "portfolio/models/02_中型结构件/打印001件__neck-round-top-left.STL",
+      "preview": "portfolio/previews/neck-round-top-left.png",
+      "plannedQuantity": 1,
+      "bytes": 38284,
+      "triangles": 764,
+      "dimensions": [
+        14.48,
+        14.75,
+        41.5
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "neck-round-top-right",
+      "title": "颈部上圆座（右）",
+      "category": "neck",
+      "categoryTitle": "颈部",
+      "filename": "打印001件__neck-round-top-right.STL",
+      "path": "portfolio/models/02_中型结构件/打印001件__neck-round-top-right.STL",
+      "preview": "portfolio/previews/neck-round-top-right.png",
+      "plannedQuantity": 1,
+      "bytes": 38384,
+      "triangles": 766,
+      "dimensions": [
+        14.48,
+        14.75,
+        41.5
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "neck-top",
+      "title": "颈部上段支架",
+      "category": "neck",
+      "categoryTitle": "颈部",
+      "filename": "打印001件__neck-top.STL",
+      "path": "portfolio/models/02_中型结构件/打印001件__neck-top.STL",
+      "preview": "portfolio/previews/neck-top.png",
+      "plannedQuantity": 1,
+      "bytes": 68284,
+      "triangles": 1364,
+      "dimensions": [
+        22.0,
+        58.61,
+        55.71
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "wheel-bracket-inner-left",
+      "title": "左内轮支架",
+      "category": "wheels",
+      "categoryTitle": "轮组",
+      "filename": "打印001件__wheel-bracket-inner-left.STL",
+      "path": "portfolio/models/02_中型结构件/打印001件__wheel-bracket-inner-left.STL",
+      "preview": "portfolio/previews/wheel-bracket-inner-left.png",
+      "plannedQuantity": 1,
+      "bytes": 99684,
+      "triangles": 1992,
+      "dimensions": [
+        40.0,
+        45.2,
+        76.0
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "wheel-bracket-inner-right",
+      "title": "右内轮支架",
+      "category": "wheels",
+      "categoryTitle": "轮组",
+      "filename": "打印001件__wheel-bracket-inner-right.STL",
+      "path": "portfolio/models/02_中型结构件/打印001件__wheel-bracket-inner-right.STL",
+      "preview": "portfolio/previews/wheel-bracket-inner-right.png",
+      "plannedQuantity": 1,
+      "bytes": 98684,
+      "triangles": 1972,
+      "dimensions": [
+        40.0,
+        45.2,
+        76.0
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "arm-barrel",
+      "title": "手臂套筒",
+      "category": "arms",
+      "categoryTitle": "手臂",
+      "filename": "打印002件__arm-barrel-x2.STL",
+      "path": "portfolio/models/02_中型结构件/打印002件__arm-barrel-x2.STL",
+      "preview": "portfolio/previews/arm-barrel.png",
+      "plannedQuantity": 2,
+      "bytes": 84984,
+      "triangles": 1698,
+      "dimensions": [
+        24.09,
+        24.0,
+        92.0
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "arm-piston",
+      "title": "手臂活塞杆",
+      "category": "arms",
+      "categoryTitle": "手臂",
+      "filename": "打印002件__arm-piston-x2.STL",
+      "path": "portfolio/models/02_中型结构件/打印002件__arm-piston-x2.STL",
+      "preview": "portfolio/previews/arm-piston.png",
+      "plannedQuantity": 2,
+      "bytes": 30184,
+      "triangles": 602,
+      "dimensions": [
+        16.73,
+        17.0,
+        74.0
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "eye-camera-replica",
+      "title": "眼部仿摄像头",
+      "category": "head",
+      "categoryTitle": "头部",
+      "filename": "打印002件__eye-camera-replica.STL",
+      "path": "portfolio/models/02_中型结构件/打印002件__eye-camera-replica.STL",
+      "preview": "portfolio/previews/eye-camera-replica.png",
+      "plannedQuantity": 2,
+      "bytes": 144184,
+      "triangles": 2882,
+      "dimensions": [
+        35.75,
+        38.5,
+        19.0
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "hand-finger-left",
+      "title": "左侧手指",
+      "category": "arms",
+      "categoryTitle": "手臂",
+      "filename": "打印002件__hand-finger-left-x2.STL",
+      "path": "portfolio/models/02_中型结构件/打印002件__hand-finger-left-x2.STL",
+      "preview": "portfolio/previews/hand-finger-left.png",
+      "plannedQuantity": 2,
+      "bytes": 46284,
+      "triangles": 924,
+      "dimensions": [
+        23.5,
+        23.67,
+        56.18
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "hand-finger-middle",
+      "title": "中间手指",
+      "category": "arms",
+      "categoryTitle": "手臂",
+      "filename": "打印002件__hand-finger-middle-x2.STL",
+      "path": "portfolio/models/02_中型结构件/打印002件__hand-finger-middle-x2.STL",
+      "preview": "portfolio/previews/hand-finger-middle.png",
+      "plannedQuantity": 2,
+      "bytes": 37584,
+      "triangles": 750,
+      "dimensions": [
+        19.0,
+        20.98,
+        43.8
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "hand-finger-right",
+      "title": "右侧手指",
+      "category": "arms",
+      "categoryTitle": "手臂",
+      "filename": "打印002件__hand-finger-right-x2.STL",
+      "path": "portfolio/models/02_中型结构件/打印002件__hand-finger-right-x2.STL",
+      "preview": "portfolio/previews/hand-finger-right.png",
+      "plannedQuantity": 2,
+      "bytes": 46284,
+      "triangles": 924,
+      "dimensions": [
+        23.5,
+        23.67,
+        56.18
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "wheel-frame-addon",
+      "title": "轮架附加件",
+      "category": "wheels",
+      "categoryTitle": "轮组",
+      "filename": "打印002件__wheel-frame-addon-x2.STL",
+      "path": "portfolio/models/02_中型结构件/打印002件__wheel-frame-addon-x2.STL",
+      "preview": "portfolio/previews/wheel-frame-addon.png",
+      "plannedQuantity": 2,
+      "bytes": 62684,
+      "triangles": 1252,
+      "dimensions": [
+        36.39,
+        30.99,
+        8.98
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "wheel-back",
+      "title": "后轮",
+      "category": "wheels",
+      "categoryTitle": "轮组",
+      "filename": "打印004件__wheel-back-x4.STL",
+      "path": "portfolio/models/02_中型结构件/打印004件__wheel-back-x4.STL",
+      "preview": "portfolio/previews/wheel-back.png",
+      "plannedQuantity": 4,
+      "bytes": 205984,
+      "triangles": 4118,
+      "dimensions": [
+        68.0,
+        68.0,
+        11.0
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "wheel-front",
+      "title": "前轮",
+      "category": "wheels",
+      "categoryTitle": "轮组",
+      "filename": "打印004件__wheel-front-x4.STL",
+      "path": "portfolio/models/02_中型结构件/打印004件__wheel-front-x4.STL",
+      "preview": "portfolio/previews/wheel-front.png",
+      "plannedQuantity": 4,
+      "bytes": 235984,
+      "triangles": 4718,
+      "dimensions": [
+        42.0,
+        42.0,
+        11.0
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "head-axle",
+      "title": "头部转轴",
+      "category": "head",
+      "categoryTitle": "头部",
+      "filename": "打印001件__head-axle.STL",
+      "path": "portfolio/models/03_小型精细件/打印001件__head-axle.STL",
+      "preview": "portfolio/previews/head-axle.png",
+      "plannedQuantity": 1,
+      "bytes": 7084,
+      "triangles": 140,
+      "dimensions": [
+        8.0,
+        8.0,
+        111.0
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "neck-bottom-axle",
+      "title": "颈部底端转轴",
+      "category": "neck",
+      "categoryTitle": "颈部",
+      "filename": "打印001件__neck-bottom-axle.STL",
+      "path": "portfolio/models/03_小型精细件/打印001件__neck-bottom-axle.STL",
+      "preview": "portfolio/previews/neck-bottom-axle.png",
+      "plannedQuantity": 1,
+      "bytes": 8284,
+      "triangles": 164,
+      "dimensions": [
+        14.5,
+        14.49,
+        41.0
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "neck-bottom-linkage",
+      "title": "颈部下连杆",
+      "category": "neck",
+      "categoryTitle": "颈部",
+      "filename": "打印001件__neck-bottom-linkage.STL",
+      "path": "portfolio/models/03_小型精细件/打印001件__neck-bottom-linkage.STL",
+      "preview": "portfolio/previews/neck-bottom-linkage.png",
+      "plannedQuantity": 1,
+      "bytes": 23084,
+      "triangles": 460,
+      "dimensions": [
+        46.64,
+        3.5,
+        4.82
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "neck-middle-axle",
+      "title": "颈部中间转轴",
+      "category": "neck",
+      "categoryTitle": "颈部",
+      "filename": "打印001件__neck-middle-axle.STL",
+      "path": "portfolio/models/03_小型精细件/打印001件__neck-middle-axle.STL",
+      "preview": "portfolio/previews/neck-middle-axle.png",
+      "plannedQuantity": 1,
+      "bytes": 9084,
+      "triangles": 180,
+      "dimensions": [
+        8.5,
+        8.49,
+        19.0
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "neck-round-bottom",
+      "title": "颈部下圆座",
+      "category": "neck",
+      "categoryTitle": "颈部",
+      "filename": "打印001件__neck-round-bottom.STL",
+      "path": "portfolio/models/03_小型精细件/打印001件__neck-round-bottom.STL",
+      "preview": "portfolio/previews/neck-round-bottom.png",
+      "plannedQuantity": 1,
+      "bytes": 118884,
+      "triangles": 2376,
+      "dimensions": [
+        24.96,
+        17.25,
+        25.0
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "neck-top-linkage",
+      "title": "颈部上连杆",
+      "category": "neck",
+      "categoryTitle": "颈部",
+      "filename": "打印001件__neck-top-linkage.STL",
+      "path": "portfolio/models/03_小型精细件/打印001件__neck-top-linkage.STL",
+      "preview": "portfolio/previews/neck-top-linkage.png",
+      "plannedQuantity": 1,
+      "bytes": 30584,
+      "triangles": 610,
+      "dimensions": [
+        4.82,
+        39.64,
+        14.95
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "neck-wire-guide-left",
+      "title": "颈部左导线夹",
+      "category": "neck",
+      "categoryTitle": "颈部",
+      "filename": "打印001件__neck-wire-guide-left.STL",
+      "path": "portfolio/models/03_小型精细件/打印001件__neck-wire-guide-left.STL",
+      "preview": "portfolio/previews/neck-wire-guide-left.png",
+      "plannedQuantity": 1,
+      "bytes": 15384,
+      "triangles": 306,
+      "dimensions": [
+        15.1,
+        9.6,
+        12.0
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "neck-wire-guide-right",
+      "title": "颈部右导线夹",
+      "category": "neck",
+      "categoryTitle": "颈部",
+      "filename": "打印001件__neck-wire-guide-right.STL",
+      "path": "portfolio/models/03_小型精细件/打印001件__neck-wire-guide-right.STL",
+      "preview": "portfolio/previews/neck-wire-guide-right.png",
+      "plannedQuantity": 1,
+      "bytes": 15384,
+      "triangles": 306,
+      "dimensions": [
+        15.1,
+        9.6,
+        12.0
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "arm-barrel-end",
+      "title": "套筒端盖",
+      "category": "arms",
+      "categoryTitle": "手臂",
+      "filename": "打印002件__arm-barrel-end-x2.STL",
+      "path": "portfolio/models/03_小型精细件/打印002件__arm-barrel-end-x2.STL",
+      "preview": "portfolio/previews/arm-barrel-end.png",
+      "plannedQuantity": 2,
+      "bytes": 34084,
+      "triangles": 680,
+      "dimensions": [
+        18.99,
+        10.0,
+        19.0
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "arm-hinge-axle",
+      "title": "手臂铰链轴",
+      "category": "arms",
+      "categoryTitle": "手臂",
+      "filename": "打印002件__arm-hinge-axle-x2.STL",
+      "path": "portfolio/models/03_小型精细件/打印002件__arm-hinge-axle-x2.STL",
+      "preview": "portfolio/previews/arm-hinge-axle.png",
+      "plannedQuantity": 2,
+      "bytes": 9484,
+      "triangles": 188,
+      "dimensions": [
+        13.2,
+        13.2,
+        23.0
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "arm-hinge-inner",
+      "title": "手臂内铰链",
+      "category": "arms",
+      "categoryTitle": "手臂",
+      "filename": "打印002件__arm-hinge-inner-x2.STL",
+      "path": "portfolio/models/03_小型精细件/打印002件__arm-hinge-inner-x2.STL",
+      "preview": "portfolio/previews/arm-hinge-inner.png",
+      "plannedQuantity": 2,
+      "bytes": 27584,
+      "triangles": 550,
+      "dimensions": [
+        25.0,
+        24.99,
+        19.5
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "arm-hinge-outer",
+      "title": "手臂外铰链",
+      "category": "arms",
+      "categoryTitle": "手臂",
+      "filename": "打印002件__arm-hinge-outer-x2.STL",
+      "path": "portfolio/models/03_小型精细件/打印002件__arm-hinge-outer-x2.STL",
+      "preview": "portfolio/previews/arm-hinge-outer.png",
+      "plannedQuantity": 2,
+      "bytes": 167984,
+      "triangles": 3358,
+      "dimensions": [
+        20.0,
+        21.99,
+        28.78
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "body-front-pins",
+      "title": "前舱门销钉",
+      "category": "body",
+      "categoryTitle": "机身",
+      "filename": "打印002件__body-front-pins-x2.STL",
+      "path": "portfolio/models/03_小型精细件/打印002件__body-front-pins-x2.STL",
+      "preview": "portfolio/previews/body-front-pins.png",
+      "plannedQuantity": 2,
+      "bytes": 7084,
+      "triangles": 140,
+      "dimensions": [
+        17.0,
+        4.5,
+        4.5
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "hand-axle",
+      "title": "手掌转轴",
+      "category": "arms",
+      "categoryTitle": "手臂",
+      "filename": "打印002件__hand-axle-x2.STL",
+      "path": "portfolio/models/03_小型精细件/打印002件__hand-axle-x2.STL",
+      "preview": "portfolio/previews/hand-axle.png",
+      "plannedQuantity": 2,
+      "bytes": 7084,
+      "triangles": 140,
+      "dimensions": [
+        10.0,
+        10.0,
+        50.0
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "hand-bracket",
+      "title": "手掌支架",
+      "category": "arms",
+      "categoryTitle": "手臂",
+      "filename": "打印002件__hand-bracket-x2.STL",
+      "path": "portfolio/models/03_小型精细件/打印002件__hand-bracket-x2.STL",
+      "preview": "portfolio/previews/hand-bracket.png",
+      "plannedQuantity": 2,
+      "bytes": 29384,
+      "triangles": 586,
+      "dimensions": [
+        19.0,
+        22.0,
+        18.0
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "wheel-axle-back",
+      "title": "后轮轴",
+      "category": "wheels",
+      "categoryTitle": "轮组",
+      "filename": "打印002件__wheel-axle-back-x2.STL",
+      "path": "portfolio/models/03_小型精细件/打印002件__wheel-axle-back-x2.STL",
+      "preview": "portfolio/previews/wheel-axle-back.png",
+      "plannedQuantity": 2,
+      "bytes": 7084,
+      "triangles": 140,
+      "dimensions": [
+        10.0,
+        10.0,
+        43.0
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "wheel-gear-driven",
+      "title": "从动齿轮",
+      "category": "wheels",
+      "categoryTitle": "轮组",
+      "filename": "打印002件__wheel-gear-driven-x2.STL",
+      "path": "portfolio/models/03_小型精细件/打印002件__wheel-gear-driven-x2.STL",
+      "preview": "portfolio/previews/wheel-gear-driven.png",
+      "plannedQuantity": 2,
+      "bytes": 96384,
+      "triangles": 1926,
+      "dimensions": [
+        13.0,
+        53.85,
+        53.95
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "wheel-gear-motor",
+      "title": "电机驱动齿轮",
+      "category": "wheels",
+      "categoryTitle": "轮组",
+      "filename": "打印002件__wheel-gear-motor-x2.STL",
+      "path": "portfolio/models/03_小型精细件/打印002件__wheel-gear-motor-x2.STL",
+      "preview": "portfolio/previews/wheel-gear-motor.png",
+      "plannedQuantity": 2,
+      "bytes": 104984,
+      "triangles": 2098,
+      "dimensions": [
+        9.0,
+        35.48,
+        35.48
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "wheel-axle-notched",
+      "title": "带槽轮轴",
+      "category": "wheels",
+      "categoryTitle": "轮组",
+      "filename": "打印006件__wheel-axle-notched-x6.STL",
+      "path": "portfolio/models/03_小型精细件/打印006件__wheel-axle-notched-x6.STL",
+      "preview": "portfolio/previews/wheel-axle-notched.png",
+      "plannedQuantity": 6,
+      "bytes": 22384,
+      "triangles": 446,
+      "dimensions": [
+        14.98,
+        14.99,
+        43.0
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "wheel-axle-spacer",
+      "title": "轮轴隔套",
+      "category": "wheels",
+      "categoryTitle": "轮组",
+      "filename": "打印008件__wheel-axle-spacer-x8.STL",
+      "path": "portfolio/models/03_小型精细件/打印008件__wheel-axle-spacer-x8.STL",
+      "preview": "portfolio/previews/wheel-axle-spacer.png",
+      "plannedQuantity": 8,
+      "bytes": 22884,
+      "triangles": 456,
+      "dimensions": [
+        17.0,
+        16.99,
+        1.5
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "wheel-top",
+      "title": "上支撑轮",
+      "category": "wheels",
+      "categoryTitle": "轮组",
+      "filename": "打印008件__wheel-top-x8.STL",
+      "path": "portfolio/models/03_小型精细件/打印008件__wheel-top-x8.STL",
+      "preview": "portfolio/previews/wheel-top.png",
+      "plannedQuantity": 8,
+      "bytes": 191284,
+      "triangles": 3824,
+      "dimensions": [
+        28.0,
+        28.0,
+        11.0
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "tread-plate",
+      "title": "履带板",
+      "category": "treads",
+      "categoryTitle": "履带",
+      "filename": "打印070件__tread-plate-x70.STL",
+      "path": "portfolio/models/03_小型精细件/打印070件__tread-plate-x70.STL",
+      "preview": "portfolio/previews/tread-plate.png",
+      "plannedQuantity": 70,
+      "bytes": 81484,
+      "triangles": 1628,
+      "dimensions": [
+        60.0,
+        6.0,
+        14.24
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    },
+    {
+      "id": "tread-pin",
+      "title": "履带销钉",
+      "category": "treads",
+      "categoryTitle": "履带",
+      "filename": "打印140件__tread-pin-x140.STL",
+      "path": "portfolio/models/03_小型精细件/打印140件__tread-pin-x140.STL",
+      "preview": "portfolio/previews/tread-pin.png",
+      "plannedQuantity": 140,
+      "bytes": 13084,
+      "triangles": 260,
+      "dimensions": [
+        8.75,
+        1.6,
+        8.0
+      ],
+      "source": "以电影中的瓦力形象为原型进行建模与设计"
+    }
+  ],
+  "documents": [
+    {
+      "name": "瓦力机器人接线调整方案.pdf",
+      "path": "portfolio/documents/瓦利机器人接线方案/瓦力机器人接线调整方案.pdf",
+      "bytes": 260310
+    },
+    {
+      "name": "瓦力BOM清单.xlsm",
+      "path": "portfolio/documents/瓦力BOM清单.xlsm",
+      "bytes": 12536
+    },
+    {
+      "name": "本组打印数量.txt",
+      "path": "portfolio/documents/瓦力机器人建模文件/01_大型结构件/本组打印数量.txt",
+      "bytes": 404
+    },
+    {
+      "name": "本组打印数量.txt",
+      "path": "portfolio/documents/瓦力机器人建模文件/02_中型结构件/本组打印数量.txt",
+      "bytes": 842
+    },
+    {
+      "name": "本组打印数量.txt",
+      "path": "portfolio/documents/瓦力机器人建模文件/03_小型精细件/本组打印数量.txt",
+      "bytes": 774
+    },
+    {
+      "name": "瓦利机器人硬件选型.docx",
+      "path": "portfolio/documents/瓦力机器人设计方案与进展/瓦利机器人硬件选型.docx",
+      "bytes": 1554893
+    },
+    {
+      "name": "瓦力机器人设计方案.docx",
+      "path": "portfolio/documents/瓦力机器人设计方案与进展/瓦力机器人设计方案.docx",
+      "bytes": 1675827
+    },
+    {
+      "name": "项目目标与排期.docx",
+      "path": "portfolio/documents/瓦力机器人设计方案与进展/项目目标与排期.docx",
+      "bytes": 20999
+    },
+    {
+      "name": "项目进展.docx",
+      "path": "portfolio/documents/瓦力机器人设计方案与进展/项目进展.docx",
+      "bytes": 16438
+    }
+  ]
+}
