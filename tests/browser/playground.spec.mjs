@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test'
 import { createHash } from 'node:crypto'
 
-const ready = page => expect(page.locator('.robot-viewer')).toHaveAttribute('data-status', 'ready', { timeout: 45000 })
+const ready = async page => { await expect(page.locator('.robot-viewer')).toHaveAttribute('data-status', 'ready', { timeout: 45000 }); await page.getByRole('tab', { name: '内置动作', exact: true }).click() }
 const digest = buffer => createHash('sha256').update(buffer).digest('hex')
 async function setRange(page, name, value) {
   await page.getByRole('slider', { name, exact: true }).fill(String(value))

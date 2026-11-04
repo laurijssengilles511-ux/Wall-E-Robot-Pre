@@ -82,6 +82,7 @@ test('pose frames can be edited, scrubbed, copied, reordered, updated, deleted a
 
 test('preset steps capture parameters and can be mixed with poses and dragged into order', async ({ page }) => {
   await page.goto('/#/virtual'); await ready(page)
+  await page.getByRole('tab', { name: '内置动作', exact: true }).click()
   await range(page, '播放速度', 2)
   await page.getByRole('combobox', { name: '动作方向' }).selectOption('left')
   await page.getByRole('button', { name: '加入编排：挥手招呼' }).click()

@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview --host 127.0.0.1",
     "start": "node scripts/serve.mjs",
-    "test": "node --experimental-strip-types --test tests/portfolio.test.mjs tests/virtual.test.mjs tests/motion.test.mjs tests/timeline.test.mjs tests/drive-settings.test.mjs",
+    "test": "node --experimental-strip-types --test tests/portfolio.test.mjs tests/virtual.test.mjs tests/motion.test.mjs tests/timeline.test.mjs tests/drive-settings.test.mjs tests/expression.test.mjs",
     "assets:prepare": "python scripts/prepare-portfolio.py",
     "package": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/package-portfolio.ps1"
   },
