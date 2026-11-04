@@ -396,6 +396,19 @@ svg { flex-shrink: 0; }
   .reflection-closing { margin-top: 28px; padding-top: 22px; font-size: 13px; }
 }
 .future-near { padding-top: 0; }
+@media (max-width: 359px) {
+  .header-inner { grid-template-columns: minmax(0, 1fr) auto; }
+  .header-inner nav { min-width: 0; overflow-x: auto; gap: 14px; justify-content: flex-start; scrollbar-width: none; }
+  .header-inner nav a { flex-shrink: 0; }
+}
+.completion-changes { padding-top: 0; }
+.completion-changes .plain-steps { margin-top: 0; }
+.completion-changes .plain-steps li:first-child { padding-top: 0; }
+.completion-changes .plain-steps p { max-width: 900px; font-size: 13px; }
+@media (max-width: 767px) {
+  .page-completion .completion-changes { padding-top: 0; }
+  .completion-changes .plain-steps p { font-size: 12px; }
+}
 .future-near .plain-steps { margin-top: 0; }
 .future-near .plain-steps li:first-child { padding-top: 0; }
 .future-near .plain-steps p { max-width: 960px; font-size: 13px; }

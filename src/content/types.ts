@@ -1,4 +1,4 @@
-export type PageId = 'story' | 'structure' | 'electronics' | 'reflection' | 'future' | 'virtual'
+export type PageId = 'story' | 'structure' | 'electronics' | 'reflection' | 'future' | 'completion' | 'virtual'
 export interface ProjectSection { id: PageId; path: string; title: string; number: string; subtitle: string }
 export interface ModelAsset { id: string; title: string; category: string; categoryTitle: string; filename: string; path: string; preview: string; plannedQuantity: number; bytes: number; triangles: number; dimensions: number[]; source: string }
 export interface ModelInventoryItem { id: string; title: string; category: string; filename: string; quantity: number; printGroup: string }

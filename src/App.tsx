@@ -5,12 +5,13 @@ import Structure from './pages/Structure'
 import Electronics from './pages/Electronics'
 import Reflection from './pages/Reflection'
 import Future from './pages/Future'
+import Completion from './pages/Completion'
 const Virtual = lazy(() => import('./pages/Virtual'))
 import { asset, documentDescriptions, documents, fileSize, sectionFromHash, sections } from './content/portfolio'
 import type { ImageInfo } from './content/types'
 
 type Modal = { kind: 'image'; image: ImageInfo } | { kind: 'sources' } | null
-const pages = { story: Story, structure: Structure, electronics: Electronics, reflection: Reflection, future: Future, virtual: Virtual }
+const pages = { story: Story, structure: Structure, electronics: Electronics, reflection: Reflection, future: Future, completion: Completion, virtual: Virtual }
 
 export default function App() {
   const [section, setSection] = useState(() => sectionFromHash(window.location.hash))
@@ -41,7 +42,7 @@ export default function App() {
     <header className="site-header"><div className="header-inner"><a className="wordmark" href="#/" aria-label="瓦力机器人首页">WALL<span>·</span>E<span className="wordmark-caption">瓦力机器人</span></a><nav aria-label="章节导航">{sections.map(item => <a key={item.id} href={`#${item.path}`} aria-current={section.id === item.id ? 'page' : undefined}><span className="nav-number">{item.number}</span>{item.title}</a>)}</nav></div></header>
     <div className="course-bar"><span>《实体、结构与制造》课程项目</span><span>设计 · 制造 · 记录</span></div>
     <main id="main-content" className={`site-main page-${section.id}`} tabIndex={-1}><Suspense fallback={<p className="virtual-loading" role="status">正在打开虚拟平台…</p>}><Page openImage={image => { setZoomed(false); setModal({ kind: 'image', image }) }} openSources={() => setModal({ kind: 'sources' })} /></Suspense></main>
-    <div className="chapter-pagination"><div>{currentIndex > 0 && <a href={`#${sections[currentIndex - 1].path}`} className="previous-chapter"><ArrowLeft size={18} /><span><small>上一章</small><strong>{sections[currentIndex - 1].title}</strong></span></a>}</div><span className="pagination-position">{section.number} / 06</span><div>{currentIndex < sections.length - 1 ? <a href={`#${sections[currentIndex + 1].path}`} className="next-chapter"><span><small>下一章</small><strong>{sections[currentIndex + 1].title}</strong></span><ArrowRight size={18} /></a> : <a href="#/" className="next-chapter"><span><small>回到开始</small><strong>故事与灵感</strong></span><ArrowRight size={18} /></a>}</div></div>
+    <div className="chapter-pagination"><div>{currentIndex > 0 && <a href={`#${sections[currentIndex - 1].path}`} className="previous-chapter"><ArrowLeft size={18} /><span><small>上一章</small><strong>{sections[currentIndex - 1].title}</strong></span></a>}</div><span className="pagination-position">{section.number} / {String(sections.length).padStart(2, '0')}</span><div>{currentIndex < sections.length - 1 ? <a href={`#${sections[currentIndex + 1].path}`} className="next-chapter"><span><small>下一章</small><strong>{sections[currentIndex + 1].title}</strong></span><ArrowRight size={18} /></a> : <a href="#/" className="next-chapter"><span><small>回到开始</small><strong>故事与灵感</strong></span><ArrowRight size={18} /></a>}</div></div>
     <footer className="site-footer"><div><strong>瓦力机器人</strong><p>一次从电影灵感出发的设计与制造尝试。</p></div><div><span>胡承越 · 陆轩 · 朱兴宇 · 李汶远</span><span>《实体、结构与制造》课程小组作品</span></div><button className="quiet-button" onClick={() => setModal({ kind: 'sources' })}>资料与参考<ArrowSquareOut size={15} /></button></footer>
 
     <dialog ref={dialog} className={`material-dialog ${modal?.kind === 'image' ? 'lightbox-dialog' : 'sources-dialog'}`} aria-labelledby="dialog-title" onCancel={event => { event.preventDefault(); closeModal() }} onClick={event => { if (event.target !== dialog.current) return; const bounds = dialog.current!.getBoundingClientRect(); if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) closeModal() }}>

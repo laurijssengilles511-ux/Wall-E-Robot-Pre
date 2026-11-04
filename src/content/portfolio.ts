@@ -8,7 +8,8 @@ export const sections: ProjectSection[] = [
   { id: 'electronics', path: '/electronics', title: '电路与搭建', number: '03', subtitle: '从控制指令，到具体的机械动作' },
   { id: 'reflection', path: '/reflection', title: '困难与复盘', number: '04', subtitle: '记录没有完成的部分，也记录收获' },
   { id: 'future', path: '/future', title: '未来构想', number: '05', subtitle: '在可靠的实体基础上，继续探索' },
-  { id: 'virtual', path: '/virtual', title: '虚拟平台', number: '06', subtitle: '从不同角度观察整机数字装配' },
+  { id: 'completion', path: '/completion', title: '实体成果', number: '06', subtitle: '调整方案之后，让瓦力真正动起来' },
+  { id: 'virtual', path: '/virtual', title: '虚拟平台', number: '07', subtitle: '从不同角度观察整机数字装配' },
 ]
 export const models: ModelAsset[] = catalog.models
 export const modelInventory: ModelInventoryItem[] = inventory

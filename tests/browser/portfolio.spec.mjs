@@ -2,9 +2,9 @@ import { test, expect } from '@playwright/test'
 import { readFile } from 'node:fs/promises'
 import { createHash } from 'node:crypto'
 
-const routes = [ ['/', '瓦力机器人'], ['/structure', '结构与制造'], ['/electronics', '电路与搭建'], ['/reflection', '困难与复盘'], ['/future', '未来构想'], ['/virtual', '虚拟平台'] ]
+const routes = [ ['/', '瓦力机器人'], ['/structure', '结构与制造'], ['/electronics', '电路与搭建'], ['/reflection', '困难与复盘'], ['/future', '未来构想'], ['/completion', '实体成果'], ['/virtual', '虚拟平台'] ]
 
-test('all six chapters are readable and contain no old player or runtime errors', async ({ page }) => {
+test('all seven chapters are readable and contain no old player or runtime errors', async ({ page }) => {
   const errors = [], requests = []; page.on('pageerror', error => errors.push(error.message)); page.on('request', request => requests.push(request.url()))
   for (const [route, title] of routes) {
     await page.goto(`/#${route}`)
@@ -34,6 +34,18 @@ test('navigation supports next chapter, direct refresh, browser history, and unk
   await expect(page.getByRole('heading', { name: '结构与制造', level: 1 })).toBeVisible()
   await page.goForward()
   await expect(page.getByRole('heading', { name: '电路与搭建', level: 1 })).toBeVisible()
+  await page.goto('/#/future')
+  await page.locator('.next-chapter').click()
+  await expect(page).toHaveURL(/#\/completion$/)
+  await expect(page.locator('.pagination-position')).toHaveText('06 / 07')
+  await expect(page.getByRole('heading', { name: '调整方案', exact: true })).toBeVisible()
+  await page.reload()
+  await expect(page.getByRole('heading', { name: '实体成果', level: 1 })).toBeVisible()
+  await page.locator('.next-chapter').click()
+  await expect(page).toHaveURL(/#\/virtual$/)
+  await expect(page.locator('.pagination-position')).toHaveText('07 / 07')
+  await page.locator('.previous-chapter').click()
+  await expect(page).toHaveURL(/#\/completion$/)
   await page.goto('/#/unknown')
   await expect(page.getByRole('heading', { name: '瓦力机器人', level: 1 })).toBeVisible()
 })
@@ -118,8 +130,14 @@ test('all chapters fit mobile and images enlarge without document overflow', asy
   for (const [route] of routes) {
     await page.goto(`/#${route}`)
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true)
-    await expect(page.getByRole('navigation', { name: '章节导航' }).getByRole('link')).toHaveCount(6)
+    await expect(page.getByRole('navigation', { name: '章节导航' }).getByRole('link')).toHaveCount(routes.length)
   }
+  await page.setViewportSize({ width: 320, height: 844 })
+  await page.goto('/#/completion')
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true)
+  await page.getByRole('navigation', { name: '章节导航' }).getByRole('link', { name: /实体成果/ }).click()
+  await expect(page.getByRole('heading', { name: '实体成果', level: 1 })).toBeVisible()
+  await page.setViewportSize({ width: 390, height: 844 })
   await page.goto('/#/future')
   await page.getByRole('button', { name: '放大查看：瓦力的表情与结构', exact: true }).click()
   await page.getByRole('button', { name: '放大图像', exact: true }).click()

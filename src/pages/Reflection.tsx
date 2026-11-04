@@ -3,7 +3,7 @@ import type { PageProps } from '../content/types'
 
 export default function Reflection({ openImage }: PageProps) {
   return <>
-    <PageHeading number="04" title="困难与复盘">本次制作的主要困难集中在机械装配、电路稳定性，以及有限时间和经费下的反复试错。装配返工和电路故障影响了项目进度，也反映出我们在前期调研、经验积累和时间安排上的不足。</PageHeading>
+    <PageHeading number="04" title="困难与复盘">前一阶段制作的主要困难集中在机械装配、电路稳定性，以及有限时间和经费下的反复试错。装配返工和电路故障影响了项目进度，也反映出我们在前期调研、经验积累和时间安排上的不足。</PageHeading>
 
     <section className="page-section reflection-topic">
       <SectionHeading number="01" title="机械装配" />
@@ -40,6 +40,6 @@ export default function Reflection({ openImage }: PageProps) {
         <p>项目安排不能只计算顺利完成各步骤的时间，还应为学习、采购和返工留出余量。经费有限时，更应先调研关键器件的参数和兼容性，再决定采购与试验方案。组内也需要及时交流问题、记录每次调整的结果，避免重复尝试；压力较大时适当暂停，有助于重新确定排查方向。</p>
       </div>
     </section>
-    <p className="reflection-closing">这次制作未能完成稳定运行的整机。通过装配和电路调试，我们认识到，前期调研、器件匹配和试错时间需要一并纳入项目安排；小组也需要共同判断问题，及时调整分工和进度。</p>
+    <p className="reflection-closing">这一阶段，我们还没能完成稳定运行的整机。通过装配和电路调试，我们认识到，前期调研、器件匹配和试错时间需要一并纳入项目安排；小组也需要共同判断问题，及时调整分工和进度。此后，我们缩小尺寸、简化电路，继续完成了装配与测试，后续成果记录在“实体成果”一章。</p>
   </>
 }
